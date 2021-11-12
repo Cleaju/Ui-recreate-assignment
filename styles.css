@@ -1,0 +1,347 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    cursor: pointer;
+    background-color: #fff;
+    padding:0 50px;
+   
+}
+
+.w-100 {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* navigation */
+nav{
+    width: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 1.5rem;
+}
+
+.heading{
+    padding-left: 20px;
+    font-size:2rem;
+    color: #000;
+}
+nav a{
+    margin-right: 1.5px;
+}
+nav ul{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+}
+nav ul a{
+    display: inline-block;
+  text-decoration: none;
+  padding: 1rem;
+  margin-right: 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(82, 78, 78);
+}
+.sign-click{
+    color: #000;
+    font-size: 1.5rem;
+    margin-left: 5%;
+}
+.bold{
+    color:rgb(4, 3, 53) ;
+    font-size: 30px;
+}
+/* button */
+.btn-main{
+    width: 100px;
+    height: 20px;
+    padding: 7px 8px;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center; 
+    color: #fff;
+}
+/* hero section */
+#hero-heading{
+    margin-top: 70px;
+}
+#hero-heading .top-text{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    color: rgb(4, 3, 53);
+
+}
+#hero-heading .top-text2{
+    font-size: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color:rgb(63, 52, 52);
+}
+#hero-heading .img-hero{
+    position: relative;
+    left: 50%;
+    bottom:200px;
+}
+#hero-heading .btn-main1{
+    position: absolute;
+    width: 200px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 12px 25px;
+    background: rgb(216, 30, 70);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+/* card */
+#d-grid{
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #FFF;
+    margin-bottom: 30%;
+    /* background-color: #48e; */
+   
+   
+}
+.line{
+    position: absolute;
+}
+.line{
+    content: "";
+  position:relative ;
+  top: 0;
+  left:50%;
+  width: 2px;
+  height: 5rem;
+  background-color:#1b094e ;
+ 
+}
+.card-section{
+    border-radius: 1px  solid #000;
+    width: 30%;
+    flex-grow: 1;
+   
+
+    
+}
+.card{
+   padding: 8px 10px;
+    text-align: center;
+    
+    
+
+   
+}
+.card-text h3{
+   
+    bottom: 90px;
+    position: relative;
+
+}
+/* services */
+#servics{
+    margin-top: 70px;
+}
+
+ .serives-text{
+    position: relative;
+    left: 50%;
+    bottom:200px;
+    bottom: 23rem;
+}
+#services .text{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    color: rgb(4, 3, 53);
+}
+#services .text2{
+    font-size: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+     color:rgb(63, 52, 52); 
+} 
+#Price-plan{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    line-height: 1.5;
+   
+    text-align: center;
+}
+.card-text2{
+    padding: 30 50px;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+}
+#Price-plan .price-text{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(4, 3, 53);
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    left: 40%;
+}
+.price-text2{
+    font-size: 1rem;
+    font-family: sans-serif;
+     color:rgb(63, 52, 52); 
+    
+}
+.price-choice{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.card-text2 li{
+    line-height: 2.5;
+}
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    padding: 7px 8px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center; 
+    color: red;
+    border: 2px solid red;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+/* hgjhkj;l */
+
+#Global-network h3{
+    /* align-items: center; */
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 2.5;
+    color: rgb(4, 3, 53);
+    
+}
+.global-text{
+    text-align: center;
+    margin: 10px 10px;
+}
+#intergrity .intergrity-text{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 2.5;
+    color: rgb(4, 3, 53); 
+    text-align: center;
+}
+#intergrity .intergrity-text2{
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color:rgb(63, 52, 52);
+
+}
+.testimonials-section{
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+    display: flex;
+    padding: 50px 50px;
+}
+.testimonials-text{
+    padding: 10px 10px;
+}
+.img-rounded{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+#suscribe{
+   padding: 50px 50px;
+}
+#suscribe .suscribe-text{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 2.5;
+    color: rgb(4, 3, 53);
+     padding: 10px 10px;
+   
+}
+.suscribe-text2{
+    font-size: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color:rgb(63, 52, 52);
+}
+.btn-main-text{
+    position: relative;
+    bottom: 50px;
+    left: 60%;
+    width: 200px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 12px 25px;
+    background: rgb(216, 30, 70);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.footer{
+    background-color: #fff;
+    padding: 70px 0;
+    line-height: 1.5;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 70px 0;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+}
+.footer ul li a{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color:rgb(63, 52, 52);
+
+}
+.container{
+   max-width: 1170px;
+   margin: auto;
+}
+ul{
+    list-style: none;
+}
